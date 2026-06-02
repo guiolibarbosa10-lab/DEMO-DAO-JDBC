@@ -2,10 +2,9 @@ package model.DAO;
 
 import java.util.List;
 
-import model.entities.Department;
 import model.entities.Seller;
 
-public interface sellerDAO {
+public interface SellerDAO {
 
 
 	void insert(Seller obj);
