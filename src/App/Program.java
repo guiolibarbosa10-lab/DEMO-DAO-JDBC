@@ -92,6 +92,15 @@ System.out.println();
 	sellerDao.update(seller);
 	System.out.println("Update Completed");
 	
+System.out.println();
+	
+	System.out.println("=== Teste #6: seller delete ===");
+	System.out.println("Enter Id for test");
+	int id = sc.nextInt();
+	sellerDao.deleteById(id);
+	System.out.println("DELETE Completed");
+	
+	sc.close();
 	
 	
 
